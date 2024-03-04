@@ -7,9 +7,10 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 const App = ()=> {
  return ( 
  
-  <SafeAreaView edges={['bottom'] style={{flex: 1}}}>
+  <SafeAreaView edges={['bottom']} style={{flex: 1}}>
+  
 
-      <Stack.Screen options={{title: 'BillSplitter'}}/>
+      <Stack.Screen options={{ title: 'Bill-Splitter' }}/>
 
       <Text>Click below to scan your bill</Text>
       
